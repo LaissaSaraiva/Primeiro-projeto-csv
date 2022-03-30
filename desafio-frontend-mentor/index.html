@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <title>Desafio Frontend Mentor | Base Apparel coming soon page</title>
+  <title>Desafio Frontend Mentor | Coming soon page</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="/reset.css">
-  <link rel="stylesheet" href="/style.css">
-  
+  <link rel="stylesheet" href="/desafio-frontend-mentor/reset.css">
+  <link rel="stylesheet" href="/desafio-frontend-mentor/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header>
-    <div class="container">
-      <img src="/images/logo.svg" id="logo" alt="">
-    </div>
-  </header>
   <main>
-    <div id="imagem-principal">
-      <img src="/images/hero-desktop.jpg" alt="">
-    </div>
-    <div class="container">
-      <div>
-        <h1> We're coming soon</h1>
-        <p>Hello fellow shoppers! We're currently building our new fashion store. 
-          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+    <div id="container">
+      <div id="conteudo">
+        <div id="logo">
+          <img src="/desafio-frontend-mentor/images/logo.svg" alt="logo">
+        </div>
+        <div id="mensagem">
+          <h1> We're coming soon</h1>
+          <p>Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <form>
+            <input type="email" placeholder="Email Address">
+            <button><img src="/desafio-frontend-mentor/images/icon-arrow.svg" alt=""></button>
+          </form>
+        </div>      
       </div>
-      <div>
-        <input type="email" placeholder="Email Address">
-        <button><img src="/images/icon-arrow.svg" alt=""></button>
+      <div id="imagem" >
+      <img src="/desafio-frontend-mentor/images/hero-desktop.jpg">
       </div>
-
-
     </div>
-   
   </main>
-  <footer>
+    <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Laíssa Saraiva</a>.
